@@ -1,0 +1,12 @@
+section .tab{
+    border-collapse:collapse;
+    width:100%;
+}
+section .tab td{
+    padding:8px;
+    text-align: left;
+  
+}
+section .tab tr:nth-child(even) {
+    background-color:#f2f2f2;
+}

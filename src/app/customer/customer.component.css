@@ -1,0 +1,17 @@
+.logo p{
+    color:#edf0f1;
+}
+nav a{
+    font-family: "Montserrat",sans-serif;
+    font-weight:500;
+    font-size:16px;
+    color:#edf0f1;
+    text-decoration:none;
+    display:inline-block;
+    padding:0px 20px;
+    transition: all 0.3s ease 0s;
+    list-style: none;
+}
+nav a:hover{
+    color:#0088a9;
+}
