@@ -3,15 +3,40 @@
         <h4>Michelle Avery</h4>
     </div>
     <br/>
-    <label>First Name</label><br/>
-    <input type="text"><br/>
-    <label>Last Name</label><br/>
-    <input type="text"><br/>
-    <label>Email</label><br/>
-    <input type="text"><br/>
-    <label>City</label><br/>
-    <input type="text"><br/>
-    <label>address</label><br/>
-    <input type="text"><br/>
-    <p><input type="submit" value="Submit"><input type="button" value="cancel"></p>
+    
+    <form (ngSubmit) = "onSubmit()">
+
+        <div class="form-group">
+            <label>First Name</label>
+            <input type="text" class="form-control" id="firstName"
+                [(ngModel)] = "details.firstName" name=" firstName">
+        </div>
+
+        <div class="form-group">
+            <label>Last Name</label>
+            <input type="text" class="form-control" id="lastName"
+                [(ngModel)] = "details.lastName" name=" lastName">
+        </div>
+
+        <div class="form-group">
+            <label>Address</label>
+            <input type="text" class="form-control" id="address"
+                [(ngModel)] = "details.address" name=" address">
+        </div>
+
+        <div class="form-group">
+            <label>City</label>
+            <input type="text" class="form-control" id="city"
+                [(ngModel)] = "details.city" name=" city">
+        </div>
+
+        <div class="form-group">
+            <label>State</label>
+            <input type="text" class="form-control" id="state"
+                [(ngModel)] = "details.state" name=" state">
+        </div>
+
+        <button class = "btn btn-success" type ="submit">Submit</button>
+        
+    </form>
 </section>
