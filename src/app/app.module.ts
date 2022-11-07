@@ -19,6 +19,8 @@ import { CustomerordersComponent } from './customerorders/customerorders.compone
 import { EditcustomerComponent } from './editcustomer/editcustomer.component';
 import { ListviewlistComponent } from './listviewlist/listviewlist.component';
 import { EditviewComponent } from './editview/editview.component';
+import { DeletecustomerComponent } from './deletecustomer/deletecustomer.component';
+
 
 
 @NgModule({
@@ -37,7 +39,9 @@ import { EditviewComponent } from './editview/editview.component';
     CustomerordersComponent,
     EditcustomerComponent,
     ListviewlistComponent,
-    EditviewComponent
+    EditviewComponent,
+    DeletecustomerComponent,
+   
   ],
   imports: [
     BrowserModule,
