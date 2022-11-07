@@ -13,6 +13,8 @@ import { CustomerordersComponent } from './customerorders/customerorders.compone
 import { EditcustomerComponent } from './editcustomer/editcustomer.component';
 import { ListviewlistComponent } from './listviewlist/listviewlist.component';
 import { EditviewComponent } from './editview/editview.component';
+import { DeletecustomerComponent } from './deletecustomer/deletecustomer.component';
+
 
 const routes: Routes = [
   {path:"customer",component:CustomerComponent,
@@ -36,7 +38,9 @@ children:[
 },
   {path:"order",component:OrderComponent},
   {path:"about",component:AboutComponent},
-  {path:"login",component:LoginComponent}
+  {path:"login",component:LoginComponent},
+  {path:"deletecustomer/:id",component: DeletecustomerComponent},
+
 ];
 
 @NgModule({
